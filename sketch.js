@@ -89,10 +89,10 @@ if(keyIsDown(RIGHT_ARROW)){
       player.rotation=180;
       }
 
-     // if(player.isTouching(wallGroup)){
-       //player.x=350
-      // player.y=370 
-     // }
+      if(player.isTouching(wallGroup)){
+       player.x=350
+       player.y=370 
+      }
 
    
  if(keyDown("space")&&frameCount%5==0){
